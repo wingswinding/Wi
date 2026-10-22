@@ -22,3 +22,5 @@ Framework preset：None；Build command：留白；Build output directory：publ
 
 在儲存庫目錄執行：python -m http.server 8000 --directory public
 瀏覽 http://localhost:8000/ 。無須建置、API金鑰或後端。
+
+Cloudflare Pages專案wi-work已建立，Git來源為本儲存庫main分支；自訂網域設定狀態須以Cloudflare為準。
