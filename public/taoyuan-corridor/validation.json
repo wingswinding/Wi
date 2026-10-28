@@ -1,0 +1,12 @@
+{
+  "count": 9,
+  "farm_area_ha": 1099.1,
+  "general_ha": 102.4,
+  "special_ha": 996.7,
+  "minimum_ha": 115.81997092677702,
+  "all_geometries_valid": true,
+  "inspected_buffer_m": 6000,
+  "hard_buffer_limit": false,
+  "not_full_city_search": true,
+  "duplicate_ha": 0
+}

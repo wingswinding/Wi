@@ -5,7 +5,7 @@
 ## 目錄
 
 - public/index.html：工作成果入口。
-- public/taoyuan-corridor/：桃園路廊六點現勘。
+- public/taoyuan-corridor/：桃園路廊九處90公頃以上區位初篩及法規分頁。
 - 未來專案以 public/<project-slug>/ 增加，再更新首頁連結。
 
 ## Cloudflare Pages
@@ -15,7 +15,7 @@ Framework preset：None；Build command：留白；Build output directory：publ
 首次部署成功後，在 Custom domains 加入 work.wingswind.org，依畫面建立DNS並等待HTTPS生效。
 最終網址規劃：https://work.wingswind.org/taoyuan-corridor/ 。設定前不可視為已上線。
 
-首頁與現勘網頁公開瀏覽；筆記只保存在各人的瀏覽器，可匯出文字或列印，不會跨使用者同步。
+首頁、九處現勘初篩及法規分頁公開瀏覽；圖資面積為概估，非可開發面積。
 發布內容只包含展示網頁及必要圖片，未包含原始GIS、專案備份、權屬或內部分析紀錄。
 
 ## 本機預覽
