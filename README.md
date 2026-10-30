@@ -24,3 +24,5 @@ Framework preset：None；Build command：留白；Build output directory：publ
 瀏覽 http://localhost:8000/ 。無須建置、API金鑰或後端。
 
 Cloudflare Pages專案wi-work已建立，Git來源為本儲存庫main分支；自訂網域設定狀態須以Cloudflare為準。
+
+九處區位依現勘順序重新編號01至09。筆記與日期、人員保存於瀏覽器，可匯出文字或列印紀錄表；以位置識別保存，避免改號後誤配。舊六點筆記儲存鍵保留，不自動對應至九處新版。
