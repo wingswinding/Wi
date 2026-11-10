@@ -21,3 +21,12 @@
 .handbook .project-nav{column-gap:10px}
 .handbook .project-nav a{font-size:13px}
 }
+
+@media screen and (min-width:850px){
+  .handbook>.project-hero{position:relative}
+  .handbook>.project-hero::after{
+    content:"";position:absolute;right:max(5vw,18px);top:12px;bottom:12px;
+    width:min(44vw,560px);background:url("corridor-hero.svg") center right / contain no-repeat;
+    pointer-events:none
+  }
+}
