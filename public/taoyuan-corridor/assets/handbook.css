@@ -1,0 +1,23 @@
+
+@media screen{
+.handbook{--ink:#15364c;--green:#176d63;--muted:#526676;--line:#d6e0e7;margin:0;background:#f3f5f8;color:#1d3347;font:16px/1.65 "Microsoft JhengHei",sans-serif}
+.handbook>header{max-width:none;margin:0;border:0;padding:clamp(16px,3.5vw,33px) max(5vw,18px);background:var(--ink);color:white}
+.handbook>header h1{margin:3px 0;color:white;font-size:clamp(25px,3.6vw,36px);line-height:1.65}
+.handbook>header :is(.tag,.eyebrow){margin:0;color:#9ed8cb;font-size:13px;letter-spacing:2px}
+.handbook>header p:not(.eyebrow){margin:3px 0 0;color:#dce7ee;font-size:14px}
+.handbook main{max-width:1344px;margin:auto;padding:18px 22px 28px}
+.handbook .project-nav{display:flex;flex-wrap:wrap;gap:4px 15px;border-bottom:1px solid var(--line);margin:0 0 13px}
+.handbook .project-nav a{display:inline-flex;align-items:center;min-height:44px;border:0;border-bottom:3px solid transparent;border-radius:0;background:transparent;padding:7px 0;color:var(--muted);text-decoration:none;font-size:15px}
+.handbook .project-nav a[aria-current=page]{background:transparent;color:var(--ink);border-color:var(--ink);font-weight:700}
+.handbook a:focus-visible,.handbook button:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+.handbook .panel{box-shadow:none;border:1px solid var(--line);border-radius:12px;padding:clamp(14px,2vw,24px)}
+.handbook .panel h2,.handbook .record h2{color:var(--ink)}
+.handbook .toolbar{gap:8px}
+.handbook .toolbar button{min-height:44px}
+.handbook #save-status:empty{display:none}
+}
+@media screen and (max-width:760px){
+.handbook main{padding:13px 11px 20px}
+.handbook .project-nav{column-gap:10px}
+.handbook .project-nav a{font-size:13px}
+}
